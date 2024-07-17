@@ -1,0 +1,192 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+}
+body{
+   background-color: rgb(0, 0, 0);
+}
+
+.container{
+  width: 95%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.n-main{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.n-center{
+  display: flex;
+  gap: 30px;
+  a{
+     text-decoration: none;
+     color: gainsboro;
+     font-size: 15px;
+  }
+}
+.n-left{
+  width: 50px;
+}
+
+.n-right{
+   font-size: 30px;
+   display: flex;
+   gap: 10px;
+}
+
+.mob svg{
+  color: white;
+
+}
+.mob{
+  display: none;
+}
+
+@media (max-width:800px) {
+  .mob{
+     display: block;
+  }
+  .n-center{
+     display: none;
+  }
+ 
+  
+}
+.active{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  height: 100vh;
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  a{
+     font-size: 22px;
+  }
+}
+
+.mob-active{
+  position: relative;
+  z-index: 100;
+}
+
+.hidden{
+  overflow-y: hidden;
+}
+
+
+
+.logo img{
+   width: 200px;
+}
+.models{
+   display: flex;
+   gap: 30px;
+   a{
+       color: white;
+       font-size: 16px;
+       
+   }
+}
+
+.btns{
+   display: flex;
+   gap: 30px;
+   button{
+       border: none;
+       font-size: 16px;
+       background: none;
+       font-weight: 600;
+       cursor: pointer;
+   }
+}
+
+
+
+
+
+
+ header{
+    width: 100%;
+    height: 100vh;
+   background: url(https://plov.press/upload/resize_cache/webp/upload/iblock/541/541ec59e22f9dd644214e229add44a80.webp) 
+   no-repeat center center/cover;
+   text-align: center;
+   padding-top: 150px;
+   h1{
+    font-size: 40px;
+    color: aliceblue;
+   }
+   p{
+    font-size: 20px;
+    color: aliceblue;
+   }
+
+ }
+
+ section{
+    width: 100%;
+    height: 100vh;
+   background: url(https://i.ytimg.com/vi/tymQNTlgsKQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDA77mOiZWTsnzkPZe0V4cBKLD1lQ) 
+   no-repeat center center/cover;
+   text-align: center;
+   padding-top: 150px;
+   h2{
+    font-size: 40px;
+    color: aliceblue;
+   }
+   p2{
+    font-size: 20px;
+    color: aliceblue;
+   }
+
+ }
+
+ aside{
+    width: 100%;
+    height: 100vh;
+   background: url(https://i.ytimg.com/vi/ZwU0jbIuNJo/hqdefault.jpg) 
+   no-repeat center center/cover;
+   text-align: center;
+   padding-top: 150px;
+   h3{
+    font-size: 40px;
+    color: aliceblue;
+   }
+   p3{
+    font-size: 20px;
+    color: aliceblue;
+   }
+
+ }
+
+
+
+ footer{
+    width: 100%;
+    height: 100vh;
+   background: url(https://images.genius.com/12853f16ae278e602825d36934ca28d0.1000x1000x1.jpg) 
+   no-repeat center center/cover;
+   text-align: center;
+   padding-top: 150px;
+   h4{
+    font-size: 40px;
+    color: aliceblue;
+   }
+   p4{
+    font-size: 20px;
+    color: aliceblue;
+   }
+
+ }
